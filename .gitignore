@@ -168,8 +168,3 @@ dmypy.json
 # private ignore    
 ####################################
 
-titanic/*
-!titanic/koji/
-!titanic/kado/
-!.gitkeep
-
