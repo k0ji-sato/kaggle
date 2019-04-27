@@ -270,5 +270,7 @@ fabric.properties
 ####################################
 # private ignore    
 ####################################
+titanic/**/.idea
+titanic/**/.vscode
 
 titanic/kado/**/ml_*_img*
