@@ -2,6 +2,7 @@
 ###### Requirements without Version Specifiers ######`
 nose
 jupyter
+pandas
 
 ###### Requirements with Version Specifiers ######`
 cvxopt == 1.2.1
