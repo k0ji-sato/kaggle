@@ -168,4 +168,4 @@ dmypy.json
 # private ignore    
 ####################################
 
-./titanic/kado/**/ml_*_img*
+titanic/kado/**/ml_*_img*

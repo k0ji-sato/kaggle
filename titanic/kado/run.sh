@@ -1,0 +1,2 @@
+docker start machine_learning
+docker attach machine_learning

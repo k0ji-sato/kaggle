@@ -1,0 +1,17 @@
+FROM python:3.6
+MAINTAINER kado
+
+# パッケージのインストールとアップデート
+RUN apt-get update && apt-get -y upgrade && apt-get clean
+RUN apt-get -y install build-essential \
+                       git vim curl wget \
+		       gcc zlib1g-dev
+
+RUN pip install --upgrade pip 
+
+#RUN pip install cvxopt==1.2.1 numpy==1.15.2 scikit-learn==0.20.0 scipy==1.1.0 matplotlib jupyter
+
+WORKDIR /tmp
+ADD requirements.txt /tmp
+
+RUN pip install -r requirements.txt
