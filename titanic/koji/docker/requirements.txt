@@ -1,0 +1,12 @@
+
+###### Requirements without Version Specifiers ######`
+nose
+jupyter
+pandas
+
+###### Requirements with Version Specifiers ######`
+cvxopt == 1.2.1
+numpy == 1.15.2
+scikit-learn == 0.20.1
+scipy == 1.1.0
+matplotlib >= 3.0.0
